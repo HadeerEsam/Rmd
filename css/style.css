@@ -1,0 +1,84 @@
+body,a{
+    color: #3e4249 !important;
+}
+
+/* carousel design  */
+#carouselExampleIndicators,.carousel-item,.carousel-inner,.carousel{
+    overflow: hidden;
+    height: 100vh;
+}
+.carousel-inner > .carousel-item-next {
+    display: none;
+ }
+ .carousel-inner > .carousel-item-prev {
+    display: none;
+ }
+.carousel-indicators li{
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.carousel-indicators li.active{
+    background-color: white;
+}
+/* end of carousel design */
+
+/* header info design */
+.btn{
+    background-color: #bca96c !important;
+    border-color: #bca96c !important;
+    color: white;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.btn:hover{
+    color: white;
+}
+.header-info{
+    background-color: #f3f3f3;
+}
+.navbar-brand{
+    width: 81px;
+}
+.contact-btn{
+    background-color: #3e4249;
+}
+h1{
+    font-size: 49px;
+    font-weight: bold;
+}
+.title{
+    position: relative;
+}
+.title p{
+    font-size: 14px;
+    font-weight: 600;
+}
+/* end of header info design */
+@media (min-width: 992px) {
+    #carouselExampleIndicators,.carousel-item,.carousel-inner,.carousel{
+        overflow: hidden;
+        height: 95vh;
+    }
+    h1{
+        font-size: 70px;
+    }
+    .title{
+        position: absolute;
+        bottom: 5%;
+        left:45%;
+        transform: translate(-45%,-5%);
+        width: 70%;
+    }
+ }
+ @media (min-width: 1440px) {
+ 
+    .title{
+        left:20%;
+        transform: translate(-20%,-5%);
+        width: 45%;
+    }
+ }
